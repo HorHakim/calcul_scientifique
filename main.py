@@ -6,7 +6,7 @@ def f(x):
 	return x**2 - 8 * numpy.log(x)
 
 def g(x):
-	return x**3 - 3
+	return numpy.exp(x)
 
 
 
@@ -34,8 +34,11 @@ def plot_function(f, start, end, step=0.01):
 	plt.show()
 
 
+
+
 if __name__ == "__main__":
-	plot_function(f, start=0.1, end=10, step=0.01)
+	# plot_function(f, start=0.1, end=10, step=0.01)
 	# middle = solve_equation(f, left=1, right=2)
 	# print(middle)
 	# print(g(middle))
+	print(test)
